@@ -1,2 +1,2 @@
 # Happy Birthday Pacific!
-It's a birthday project :D
+It's just a birthday project :D
