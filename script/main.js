@@ -106,17 +106,23 @@ const animationTimeline = () => {
     .from(".idea-2", 0.7, ideaTextTrans)
     .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-3", 0.7, ideaTextTrans)
-    .to(".idea-3 strong", 0.5, {
-      scale: 1.2,
-      x: 10,
-      backgroundColor: "rgb(21, 161, 237)",
-      color: "#fff"
-    })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-4", 0.7, ideaTextTrans)
     .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-5", 0.7, ideaTextTrans)
+    .to(".idea-5", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-6", 0.7, ideaTextTrans)
+    .to(".idea-6", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-7", 0.7, ideaTextTrans)
+    .to(".idea-7", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-8", 0.7, ideaTextTrans)
+    .to(".idea-8", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-9", 0.7, ideaTextTrans)
+    .to(".idea-9", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-10", 0.7, ideaTextTrans)
+    .to(".idea-10", 0.7, ideaTextTransLeave, "+=1.5")
     .from(
-      ".idea-5",
+      ".idea-11",
       0.7,
       {
         rotationX: 15,
@@ -129,7 +135,7 @@ const animationTimeline = () => {
       "+=0.5"
     )
     .to(
-      ".idea-5 span",
+      ".idea-11 span",
       0.7,
       {
         rotation: 90,
@@ -138,7 +144,7 @@ const animationTimeline = () => {
       "+=0.4"
     )
     .to(
-      ".idea-5",
+      ".idea-11",
       0.7,
       {
         scale: 0.2,
@@ -146,8 +152,12 @@ const animationTimeline = () => {
       },
       "+=2"
     )
+    .from(".idea-12", 0.7, ideaTextTrans)
+    .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-13", 0.7, ideaTextTrans)
+    .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
     .staggerFrom(
-      ".idea-6 span",
+      ".idea-14 span",
       0.8,
       {
         scale: 3,
@@ -158,7 +168,7 @@ const animationTimeline = () => {
       0.2
     )
     .staggerTo(
-      ".idea-6 span",
+      ".idea-14 span",
       0.8,
       {
         scale: 3,
