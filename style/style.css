@@ -92,23 +92,17 @@ body {
   right: 0;
 }
 
-.idea-3 strong {
-  padding: 3px 5px;
-  border-radius: 3px;
-  display: inline-block;
-}
-
-.five .idea-5 {
+.five .idea-11 {
   font-size: 4rem;
 }
 
-.idea-5 span,
-.idea-6 span,
+.idea-11 span,
+.idea-14 span,
 .wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span {
+.idea-14 span {
   font-size: 15rem;
 }
 
