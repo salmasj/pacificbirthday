@@ -153,9 +153,9 @@ const animationTimeline = () => {
       "+=2"
     )
     .from(".idea-12", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-12", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-13", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-13", 0.7, ideaTextTransLeave, "+=1.5")
     .staggerFrom(
       ".idea-14 span",
       0.8,
