@@ -1,2 +1,2 @@
-# pacificbirthday
-It's a birthday project
+# Happy Birthday Pacific!
+It's a birthday project :D
